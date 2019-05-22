@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ConversorActivity" android:background="@color/white">
+
+<android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_keyboard_backspace"
+            android:id="@+id/btn_voltar"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="20dp" android:layout_marginTop="30dp"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+            android:text="Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_btn"
+            android:id="@+id/btn_calc_conv"
+            android:textAlignment="center" android:textColor="@color/white" android:textStyle="bold"
+            android:layout_marginTop="100dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginStart="50dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginEnd="50dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="100dp"/>
+    <TextView
+            android:text="Conversor de Temperatura!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView4" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="100dp"
+            android:layout_marginStart="50dp" android:textSize="24sp" android:textColor="@color/alizarin"
+            android:textAlignment="center"/>
+    <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/input_numb"
+            android:hint="@string/entre_com_um_numero"
+            android:textColor="@color/black"
+            android:textColorLink="@color/black" android:textColorHighlight="@color/black"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginStart="50dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="50dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="80dp"/>
+    <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" app:layout_constraintEnd_toEndOf="@+id/input_numb"
+            app:layout_constraintStart_toStartOf="@+id/input_numb" android:layout_marginTop="80dp"
+            app:layout_constraintTop_toBottomOf="@+id/input_numb"/>
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

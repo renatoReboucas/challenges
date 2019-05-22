@@ -74,9 +74,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 val intent = Intent(this, BissextoActivity::class.java)
                 startActivity(intent)
             }
-//            R.id.nav_slideshow -> {
-//
-//            }
+            R.id.nav_slideshow -> {
+                val intent = Intent(this, ConversorActivity::class.java)
+                startActivity(intent)
+            }
 //            R.id.nav_tools -> {
 //
 //            }

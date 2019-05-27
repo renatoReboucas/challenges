@@ -27,7 +27,7 @@
         <compilerSettings />
         <compilerArguments>
           <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
-          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.31/721b62ccbafe51a284ca0d1c5dcfdce8cedd4255/kotlin-android-extensions-runtime-1.3.31.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/aae0679a813d5b0c42a19dbc56fe4dc8/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/abac358810df856507d8432308328e4f/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/9d82f5f2a99c37f7e7dfe93d15017a00/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/12da1007de476e3085e3988e4276fc68/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/a9aca326c53feca94ce5b7cad32423af/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/2782be2370ab9b1b2a8a81dee3eae869/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/7c2085697bb445c97330bd002b80c3f8/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/8bdf24d95b5a376da1d81035a1fba3e5/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/2841a51f8fee36c390ed8974ac1052f1/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/face04ec9491a6e124e3a9d4ec8c6fcb/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/1669d7d085af4bc6406a18ad361407de/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/324f6d38ea061d5454059d4b42f46e87/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/a25e002d06b5f26fe75e3d196f0505a4/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/54a2c2cf225894233fac6cce9272eabd/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/b15782042143f66fdd62e545cf751b4f/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/5d5a76776729056ef91c3a3477abdddc/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/7f88a465585863e3b64aff7d193853ab/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/9a4ff3b8c2c5bdaa5063c3de22b96429/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/0d9391415200378269d0ecf321ce8d53/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/4cefe0542b2af42ee23bc561f827a2b3/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/9581a21313fa50898cd03fe3f7b7586e/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/61462b289c77f49d39632812a122e09b/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/019fb57ce55de0277c403117240c6159/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/472b4611e4c068be6f63628af5a0c673/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/60372fd98213fcf8c3ae07a5b2086ade/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/d621dad6402d1499077c5eda10979083/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/0d1338395833c3949aa097892531b4ad/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/2279498bbf7a04a0101368814752c3a3/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/d2ff2c3e75c407daff77016d53bab353/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/ea1fa58f6d519265b6a3541da8a59c95/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/21a731f3a3cd2241c02de6aae5e41b26/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/139c273a11d1894abfa3d194d52955f8/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar:/Users/renatoreboucas/.gradle/caches/transforms-2/files-2.1/3c1fd88ce6f5cf377a0cac38d68bb33a/jars/classes.jar:/Users/renatoreboucas/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar:/Users/renatoreboucas/Library/Android/sdk/platforms/android-28/android.jar" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.3.31/721b62ccbafe51a284ca0d1c5dcfdce8cedd4255/kotlin-android-extensions-runtime-1.3.31.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.3.31/e652770b6416c6d85934086899ffed3eccd35813/kotlin-stdlib-jdk7-1.3.31.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.31/11289d20fd95ae219333f3456072be9f081c30cc/kotlin-stdlib-1.3.31.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.31/20c34a04ea25cb1ef0139598bd67c764562cb170/kotlin-stdlib-common-1.3.31.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/bbd4d7ef23127c1ea5ae08e3538ca605/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/6f530dc61238300c6936d952753ffc50/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/3ad97490ac06024c7fc51c66f1434043/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/2742925ffb3b0be4a80985c5e8a6cde8/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/c80ec97605de635f719f4f8b6ff22b20/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/05e588eb7d36a6226968492c3f4faeb0/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/503c5774932914381bbd192dbf72f0f6/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/6ce640d950bc7b014f3f4bb98f28a0ce/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/13f2f72456ee33f84c4f65c12c9fe67e/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/eb4d3905067fa4cb760d68e66698095d/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/e50004f8c9324e6facc89826019bac6c/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/02b78dbf2e8595f3a8e72d4d37ac6848/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/7a6f1d6659abcba3047b8b6c5f88643f/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/174fe55a4ef19989c9931498588175c6/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/1cc4a4c5e8ee8a52bb340beeaf610eef/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/bb1c8a3ddb5d2fec13152cfb533438ea/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/041c5a0b8eca9a644cf7311eeb08980a/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/567e019c6f68ac7e427e0fd3f3e13030/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/5c140d7f4b239fff1a28d8bd095ab8ef/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/3e577ce35ef0e00ea8356a8de10fc945/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/ab3d9e4c6adf8f3abc9d6d0ce2ee54a0/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0/c1bcdade4d3cc2836130424a3f3e4182c666a745/collections-28.0.0.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/ce65579055777acb13228cb9a85d6eb5/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/c1a058c3f2f0d684a0250425c897211f/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/b232ae28b3784f417366a9151f614414/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/f29c3394f08481c468df651153e8f76b/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/27c3891f0d50b9bb319b409221dffa43/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/ed9c27f55f49f812f32f9d82ed6d7e92/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/781ce16b3d872a30896cc9609788c323/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/865ad5781d8664b9ba325d701691965a/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/ba6cdbc2e39dd26bb49da96e6cffdb29/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/02b569567e7e01ed3825a779afc97582/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/4edb8ac9bad4e35ebf0e60bb00b54b63/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0/ed73f5337a002d1fd24339d5fb08c2c9d9ca60d8/support-annotations-28.0.0.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/transforms-2/files-2.1/a8d8c8aa3a69e021412f83c4a470ae2d/jars/classes.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/.gradle/caches/modules-2/files-2.1/com.android.support.constraint/constraint-layout-solver/1.1.3/bde0667d7414c16ed62d3cfe993cff7f9d732373/constraint-layout-solver-1.1.3.jar;C:/Users/renatoReboucas.DESKTOP-KESIURE/AppData/Local/Android/Sdk/platforms/android-28/android.jar" />
           <option name="noStdlib" value="true" />
           <option name="noReflect" value="true" />
           <option name="moduleName" value="app_debug" />
@@ -79,13 +79,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/assets" type="java-test-resource" />
@@ -93,6 +86,13 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTestDebug/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/testDebug/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
@@ -100,13 +100,6 @@
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/shaders" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/res" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/assets" type="java-test-resource" />
@@ -114,20 +107,35 @@
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/rs" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidTest/shaders" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/res" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/assets" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/shaders" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
       <excludeFolder url="file://$MODULE_DIR$/build/generated/source/r" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/annotation_processor_list" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/apk_list" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/blame" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/build-info" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/builds" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundle_manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/check_manifest_result" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/compatible_screen_manifest" />
-      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/duplicate_classes_check" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-runtime-classes" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/incremental-verifier" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant-run-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_app_manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_app_info_output_file" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_main_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_merged_manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/instant_run_split_apk_resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/javac" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/manifest-checker" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_jni_libs" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/merged_manifests" />
@@ -135,9 +143,12 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/metadata_feature_manifest" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/prebuild" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/processed_res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/reload-dex" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/res" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/resources" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/shader_assets" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/signing_config" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/split-apk" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/symbols" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/transforms" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/validate_signing_config" />

@@ -6,19 +6,18 @@ import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
-import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_conversor.*
-import utils.utilidade
 
 class ConversorActivity : AppCompatActivity() {
-
+    private val logTag = "ConversorActivity"
+    private val celcius = "Celsius"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_conversor)
 
         val temp = arrayListOf(
             "Selecione uma temperatura:",
-            "Celsius",
+            celcius,
             "Kelvin",
             "Fahrenheit"
         )
@@ -27,24 +26,24 @@ class ConversorActivity : AppCompatActivity() {
 
         spinner.adapter = adpter
 
-        spinner.setOnItemSelectedListener(object: AdapterView.OnItemSelectedListener {
+        spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-//                txt_result.text = "Você escolheu: ${temp[position]}"
-                var valor = temp[position]
+                //                txt_result.text = "Você escolheu: ${temp[position]}"
+                val valor = temp[position]
 
-                if ( valor == "Celsius"){
-//                    txt_result.text = "Você escolheu: ${temp[position]}"
-                var res = calcC(valor)
-                Log.d("spn", "$res")
-                }else{
-                    txt_result.text = "Nao sei oq escolheu"
-                }
+//                if (valor == celcius) {
+                //                    txt_result.text = "Você escolheu: ${temp[position]}"
+                val res = calcC(valor)
+                Log.d(logTag, res)
+//                } else {
+//                    txt_result.text = "Nao sei oq escolheu"
+//                }
             }
 
             override fun onNothingSelected(parent: AdapterView<*>?) {
 
             }
-        })
+        }
 
         btn_voltar.setOnClickListener {
             finish()
@@ -58,16 +57,20 @@ class ConversorActivity : AppCompatActivity() {
 
     }
 
-    fun calcC(valor: String): String{
-                var nome = "errou"
-                var numb = input_numb.editableText.toString().toInt()
-
-//        if ( valor == "Celsius" ){
-//             nome =  "Celsius"
-//        }
-//        if (valor == "Kelvin"){
-//             nome = "Kelvin"
-//        }
+    fun calcC(valor: String): String {
+        Log.d(logTag, "$valor ${valor == celcius}")
+        val nome: String
+        when (valor) {
+            celcius -> {
+                nome = "Graus ºC"
+            }
+            "Kelvin ->" -> {
+                nome = "Graus Kelvin"
+            }
+            else -> {
+                nome = "Não definido"
+            }
+        }
 
 
 //        btn_calc_conv.setOnClickListener {
@@ -88,7 +91,7 @@ class ConversorActivity : AppCompatActivity() {
 //        }
 
 
-//        return "entrou calcC"
+        return nome
     }
 
 }

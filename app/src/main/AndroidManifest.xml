@@ -9,7 +9,9 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".ConversorActivity">
+        <activity android:name=".ConversorActivity"
+                  android:theme="@style/Theme.AppCompat.Light.FullScreen"
+        >
         </activity>
         <activity
                 android:name=".BissextoActivity"

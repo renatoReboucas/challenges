@@ -27,18 +27,19 @@ tools:context=".ConversorActivity" android:background="@color/white">
             android:background="@drawable/round_btn"
             android:id="@+id/btn_calc_conv"
             android:textAlignment="center" android:textColor="@color/white" android:textStyle="bold"
-            android:layout_marginTop="100dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
+            android:layout_marginTop="90dp" app:layout_constraintTop_toBottomOf="@+id/txt_result"
             android:layout_marginStart="50dp" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginEnd="50dp" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginBottom="100dp"/>
+            app:layout_constraintHorizontal_bias="0.4"/>
     <TextView
             android:text="Conversor de Temperatura!"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" android:id="@+id/textView4" app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="100dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="80dp"
             android:layout_marginStart="50dp" android:textSize="24sp" android:textColor="@color/alizarin"
-            android:textAlignment="center"/>
+            android:textAlignment="center"
+    />
     <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
@@ -48,16 +49,23 @@ tools:context=".ConversorActivity" android:background="@color/white">
             android:hint="@string/entre_com_um_numero"
             android:textColor="@color/black"
             android:textColorLink="@color/black" android:textColorHighlight="@color/black"
-            app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginStart="50dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="50dp"
-            app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="80dp"/>
+            android:layout_marginStart="30dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginEnd="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            android:layout_marginTop="80dp" app:layout_constraintTop_toBottomOf="@+id/spinner"/>
     <TextView
-            android:text="TextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/textView5" app:layout_constraintEnd_toEndOf="@+id/input_numb"
+            android:id="@+id/txt_result" app:layout_constraintEnd_toEndOf="@+id/input_numb"
             app:layout_constraintStart_toStartOf="@+id/input_numb" android:layout_marginTop="80dp"
             app:layout_constraintTop_toBottomOf="@+id/input_numb"/>
+    <Spinner
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginTop="80dp"/>
 
 
 </android.support.constraint.ConstraintLayout>

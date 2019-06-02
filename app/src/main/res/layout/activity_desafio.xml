@@ -18,12 +18,14 @@
                 app:layout_constraintTop_toBottomOf="@+id/textView2" app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" android:hint="@string/entre_com_um_numero"
                 android:textColor="@color/black"
+                android:maxLength="6"
                 android:textColorLink="@color/black" android:textColorHighlight="@color/black"
                 android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
 
         <TextView
                 android:text="Desafio Par ou impar"
                 android:layout_width="wrap_content"
+
                 android:layout_height="wrap_content" android:id="@+id/textView2"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

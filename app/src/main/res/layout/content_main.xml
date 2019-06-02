@@ -13,10 +13,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/boas_vindas"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent" android:textSize="25sp" android:textAlignment="center"
-            android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:textColor="@color/black"/>
+            android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:textColor="@color/black"
+            android:layout_marginTop="100dp" android:id="@+id/textView6"/>
+    <ImageView
+            android:layout_width="246dp"
+            android:layout_height="309dp"
+            app:srcCompat="@drawable/ic_medal"
+            android:id="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView6" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
 
 </android.support.constraint.ConstraintLayout>

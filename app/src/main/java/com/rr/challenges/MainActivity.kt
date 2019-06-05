@@ -78,9 +78,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                 val intent = Intent(this, ConversorActivity::class.java)
                 startActivity(intent)
             }
-//            R.id.nav_tools -> {
-//
-//            }
+            R.id.nav_ipva -> {
+                val intent = Intent(this, IpvaActivity::class.java)
+                startActivity(intent)
+            }
 //            R.id.nav_share -> {
 //
 //            }

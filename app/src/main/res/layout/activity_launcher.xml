@@ -5,15 +5,8 @@
         xmlns:app="http://schemas.android.com/apk/res-auto"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".LauncherActivity">
+        tools:context=".LauncherActivity" android:background="#162C9a">
 
-    <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/winner"
-            android:id="@+id/imageView2" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
-            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView5"/>
     <TextView
             android:text="Challenges"
             android:layout_width="wrap_content"
@@ -21,6 +14,15 @@
             android:id="@+id/textView5" android:layout_marginTop="50dp"
             app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
             app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="8dp" android:textColor="@color/black" android:textSize="32sp"
+            android:layout_marginEnd="8dp" android:textColor="#FFD027" android:textSize="50sp"
             android:fontFamily="@font/roboto" android:textStyle="bold" android:textAlignment="center"/>
+    <ImageView
+            android:layout_width="269dp"
+            android:layout_height="356dp"
+            app:srcCompat="@drawable/trophy"
+            android:id="@+id/imageView2" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintVertical_bias="0.656" android:layout_marginEnd="8dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
 </android.support.constraint.ConstraintLayout>

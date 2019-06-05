@@ -6,20 +6,24 @@ import android.util.Log
 import android.view.View
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_conversor.*
+import java.math.BigDecimal
 
 class ConversorActivity : AppCompatActivity() {
     private val logTag = "ConversorActivity"
-    private val celcius = "Celsius"
+    private var celcius = "Celsius"
     private val kelvin = "Kelvin"
     private val fahrenheit = "Fahrenheit"
+
     override fun onCreate(savedInstanceState: Bundle?) {
+        var valor: String = ""
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_conversor)
 
         val temp = arrayListOf(
             "Selecione uma temperatura:",
-            celcius,
+            //celcius,
             kelvin,
             fahrenheit
         )
@@ -33,8 +37,19 @@ class ConversorActivity : AppCompatActivity() {
                 //                txt_result.text = "Você escolheu: ${temp[position]}"
                 val valor = temp[position]
 
-                val res = calcC(valor)
-                Log.d(logTag, res)
+
+                btn_calc_conv.setOnClickListener {
+
+                    if(isValid()){
+                        val res = calcC(valor)
+                        Log.d(logTag, "valor $res")
+                        txt_result.setText("O resusultado é: $res")
+                        input_numb.setText("")
+                    }else{
+                        Toast.makeText(this@ConversorActivity,"Preencha o unico campo existente",Toast.LENGTH_LONG).show()
+                    }
+                }
+
 
             }
 
@@ -55,26 +70,33 @@ class ConversorActivity : AppCompatActivity() {
 
     }
 
-    fun calcC(valor: String): String {
-        Log.d(logTag, "$valor ${valor == celcius}")
-        val nome: String
+    fun calcC(valor:String): String {
+//        Log.d(logTag, "$valor ${valor == celcius}")
+        if (input_numb.editableText.isEmpty()){
+            return valor
+        }
+        val celcius = input_numb.editableText.toString().toDouble()
+        var nome: String = ""
         when (valor) {
-            celcius -> {
-                nome = "Graus ºC"
+//            celcius -> {
+//                nome = "Graus ºC"
+//            }
+            fahrenheit -> {
+                val calc = (celcius * 1.8 + 32).toLong()
+//                val nome = calc
+                return calc.toString()
             }
             kelvin -> {
-                nome = "Graus Kelvin"
+            val calc = (celcius + 273.15).toLong()
+                return calc.toString()
             }
-            fahrenheit -> {
-            nome = "Graus Kelvin"
-        }
             else -> {
-                nome = "Não definido"
+               val nome = "Não definido"
             }
         }
 
 
-        return nome
+        return nome.toString()
     }
 
 }

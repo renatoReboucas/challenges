@@ -51,6 +51,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -62,6 +63,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="scalingPercent" value="76" />
                                                 <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
@@ -74,6 +76,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -83,10 +86,12 @@
                                   </option>
                                   <option name="values">
                                     <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="162c9a" />
                                       <entry key="backgroundLayerName" value="ic_launcher_background" />
-                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/winner.svg" />
-                                      <entry key="foregroundLayerName" value="ic_launcher_foreground" />
-                                      <entry key="outputName" value="ic_winer2" />
+                                      <entry key="foregroundImage" value="$USER_HOME$/Downloads/trophy.svg" />
+                                      <entry key="foregroundLayerName" value="ic_trof" />
+                                      <entry key="outputName" value="ic_trofeu" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -189,11 +194,11 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="height" value="581" />
-                            <entry key="outputName" value="ic_thermometer" />
+                            <entry key="height" value="575" />
+                            <entry key="outputName" value="ic_car" />
                             <entry key="overrideSize" value="true" />
-                            <entry key="sourceFile" value="$USER_HOME$/Downloads/thermometer.svg" />
-                            <entry key="width" value="581" />
+                            <entry key="sourceFile" value="$USER_HOME$/Downloads/car.svg" />
+                            <entry key="width" value="575" />
                           </map>
                         </option>
                       </PersistentState>

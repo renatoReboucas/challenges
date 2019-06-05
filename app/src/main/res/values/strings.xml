@@ -18,4 +18,6 @@
     <string name="boas_vindas">Selecione uma Opção no menu lateral á esquerda!!</string>
     <string name="numero">Numero</string>
     <string name="entre_com_um_numero">Entre com um numero</string>
+    <string name="conversor_de_temperatura">Conversor de temperatura</string>
+    <string name="calcular_ipva">Calcular IPVA</string>
 </resources>

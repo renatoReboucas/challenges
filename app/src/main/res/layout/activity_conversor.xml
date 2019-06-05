@@ -39,14 +39,14 @@ tools:context=".ConversorActivity" android:background="@color/white">
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginTop="80dp"
             android:layout_marginStart="50dp" android:textSize="24sp" android:textColor="@color/alizarin"
             android:textAlignment="center"
-    />
+            android:fontFamily="@font/roboto_regular"/>
     <EditText
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:inputType="number"
             android:ems="10"
             android:id="@+id/input_numb"
-            android:hint="@string/entre_com_um_numero"
+            android:hint="Entre com os °C"
             android:textColor="@color/black"
             android:textColorLink="@color/black" android:textColorHighlight="@color/black"
             android:layout_marginStart="30dp"
@@ -62,7 +62,7 @@ tools:context=".ConversorActivity" android:background="@color/white">
             app:layout_constraintTop_toBottomOf="@+id/input_numb"/>
     <Spinner
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:id="@+id/spinner" app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"
             android:layout_marginEnd="32dp" app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" android:layout_marginTop="80dp"/>
